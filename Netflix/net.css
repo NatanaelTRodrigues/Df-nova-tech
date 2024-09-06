@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    list-style: none;
+    box-shadow: none;
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.containerlogin {
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 70vh;
+    width: 23vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transform: translateY(20%);
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .logo-netflix img {
+    padding: 30px;
+    height: auto;
+    width: 120px; 
+}
+
+.button-sigin {
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e21313;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin: auto;
+    border: none;
+}
+
+.button-sigin:hover {
+    background-color: #ff0000;
+}
+.button-Entrar {
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e21313;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin: auto;
+    border: none;
+}
+
+.button-Entrar:hover {
+    background-color: #ff0000;
+}
+
+.containerlogin h1, .containerlogin h2 {
+    color: white;
+}
+
+h1.sig-in {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.email, .password {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 58);
+    color: grey;
+    margin-bottom: 20px;
+    border: none;
+    padding: 5px 0 5px 20px;
+}
+
+.email:hover, .password:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+.remember {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember input[type="checkbox"] {
+    margin-right: 10px;
+}
+.cadastro-button {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('./background-netflix.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

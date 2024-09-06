@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico" type="img/favicon">
+    <link rel="stylesheet" href="net.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="containerlogin">
+        <h1 class="Entrar">Cadastro</h1>
+        <input class="email" type="email" placeholder="Email">
+        <input class="password" type="password" placeholder="Senha">
+        <button class="button-Entrar" id="cadastrar-button" type="submit">Cadastrar</button>
+    </div>
+    <script>
+        document.getElementById('cadastrar-button').addEventListener('click', function() {
+            window.location.href = 'net.html';
+        });
+    </script>
+</body>
+</html>
